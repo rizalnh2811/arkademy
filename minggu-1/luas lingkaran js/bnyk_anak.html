@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <input id="bil1"><br>
+        <input id="bil2"><br>
+        <input id="hasil"><br>
+        <button onclick="hitung()">Touche Me</button>
+        <script type="text/javascript">
+            function hitung(){
+                var angka1 = parseInt (document.getElementById('bil1').value);
+                var angka2 = parseInt (document.getElementById('bil2').value);
+                var hasil = angka1 + angka2;
+                document.getElementById('hasil').value = hasil;
+            }
+        </script>  
+    </body>
+</html>
+

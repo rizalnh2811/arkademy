@@ -1,0 +1,46 @@
+#hape{
+    width: 900px;
+    background: lightseagreen;
+    margin: 0 auto;
+}
+
+#hp div{
+    padding: 10px;
+}
+
+#hape div .nama-ponsel{
+    display: block;
+    color: blue; 
+    border: 5%;
+}
+
+#hape div .nama-ponsel::before{
+    content: "Nama: "
+}
+
+#hape div .harga-ponsel{
+    display: block;
+    color: lightgreen;
+}
+
+#hape div .harga-ponsel::before{
+    content: "Harga: "
+}
+
+#hape div .ram-ponsel{
+    display: block;
+    color: red; 
+}
+
+#hape div .ram-ponsel::before{
+    content: "RAM: "
+}
+
+#hape div .storage-ponsel{
+    display: block;
+    color: white; 
+}
+
+#hape div .storage-ponsel::before{
+    content: "Storage: "
+}
