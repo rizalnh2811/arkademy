@@ -1,17 +1,29 @@
 #hape{
-    width: 900px;
+    width: 600px;
     background: lightseagreen;
     margin: 0 auto;
+    text-align: center;
 }
 
 #hp div{
     padding: 10px;
+    margin: 0 auto;
+    background-color: aqua;
+    border-radius: 30px;  
+  
+}
+
+h3{
+    background: gray;
+    width: 700px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 30px;
 }
 
 #hape div .nama-ponsel{
     display: block;
     color: blue; 
-    border: 5%;
 }
 
 #hape div .nama-ponsel::before{
