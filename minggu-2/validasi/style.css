@@ -1,0 +1,48 @@
+body{
+    background: yellow;
+    margin: 0px;
+    height: 10px;
+    padding: 5%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hilang{
+    width: 40%;
+    height: 300px;
+    margin: 80px auto;
+    background: aqua;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.nama{
+    margin-left: 20px;
+}
+
+.kelass{
+    margin-left: 20px;
+}
+
+.emaill{
+    margin-left: 20px;
+}
+
+.alamatt{
+    margin-left: 20px;
+}
+
+.name{
+    margin-left: 19px;
+}
+
+.kelas{
+    margin-left: 25px;
+}
+
+.email{
+    margin-left: 24px;
+}
+
+.alamat{
+    margin-left: 12px;
+}

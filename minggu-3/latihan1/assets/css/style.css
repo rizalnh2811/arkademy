@@ -1,0 +1,27 @@
+.judul {
+    text-align: center;
+    width: 70%;
+    height: 650px;
+    margin: auto;
+    background: linear-gradient(to top,#38C85E 0%, #045766 50%);
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-bottom: 20px;
+    border: 1px solid black;   
+    
+}
+
+img {
+    width: 20%;
+    height: 25%;
+}
+
+.fotoo {
+    width: 80%;
+    height: 85%;
+    margin-left: 80px;
+}
+
+h3 {
+    margin-left: 3px;
+}
