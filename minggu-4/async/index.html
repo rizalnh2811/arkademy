@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="hasil"></div>
+    <script>
+        class OutputHasil{
+            getData = async()=>{
+                let obj = {}
+                await setTimeout(()=>{
+                    obj = {
+                        'nama':'Rizal',
+                        'kelas':'XI-RPL'
+                    }
+                },5000)
+                return await obj
+            }
+            setData = (data,hasil)=>{
+                document.getElementById(hasil).innerHTML = await data
+            }
+        }
+
+        const OH = new OutputHasil()
+        const output = async()=>{
+            const data = await OH.getData()
+            await OH.setData(data,'hasil')
+        }
+        output()
+
+
+    </script>
+</body>
+</html>
